@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Fizz Buzz App</title>
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="text-center mt-3">Fizz Buzz App</h1>
+			<p class="intro mt-4">
+				Write a program that prints the numbers from 1 to 100. But for
+				multiples of three print "Fizz" instead of the number and for the
+				multiples of five print "Buzz". For numbers which are multiples of
+				both three and five print "FizzBuzz".
+			</p>
+			<section class="mt-4">
+				<div class="card text-center wrapper">
+					<div class="card-header">
+						<h5 class="card-title">Ready when you are!</h5>
+					</div>
+					<div class="card-body">
+						<form>
+							<div class="form-group">
+								<label for="fizz">Enter a number</label>
+								<input
+									type="number"
+									class="form-control"
+									id="fizz"
+									name="fizz"
+									placeholder=""
+								/>
+							</div>
+							<div class="form-group">
+								<label for="buzz">Enter another number</label>
+								<input
+									type="number"
+									class="form-control"
+									id="buzz"
+									name="buzz"
+									placeholder=""
+								/>
+							</div>
+						</form>
+						<button
+							type="submit"
+							class="btn btn-primary"
+							onclick="show()"
+						>
+							Generate
+						</button>
+						<p id="results" class="card-text mt-3"></p>
+					</div>
+					<div class="card-footer text-muted">
+						Designed by Kevin Ochanda
+					</div>
+				</div>
+			</section>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

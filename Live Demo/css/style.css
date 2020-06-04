@@ -1,0 +1,28 @@
+.wrapper {
+	width: 50% !important;
+	margin: 0 auto;
+}
+.intro {
+	width: 56%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		width: 75% !important;
+		margin: 0 auto;
+	}
+	.intro {
+		width: 80%;
+	}
+}
+
+@media (max-width: 576px) {
+	.wrapper {
+		width: 90% !important;
+	}
+	.intro {
+		width: 96%;
+	}
+}
